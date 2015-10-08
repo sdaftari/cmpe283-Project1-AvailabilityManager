@@ -130,7 +130,7 @@ public class RecoveryManager implements Runnable{
 				}
 				else  
 				{
-					// Parent vHost is not pinging even after reverting the snapshot. So find another live vHost and migrate the VM to another host
+					 // Parent vHost is not pinging even after reverting the snapshot. So find another live vHost and migrate the VM to another host
 					System.out.println("vHost Unrecoverable by reverting to snapshot.");
 					System.out.println("Searhing another vHost for migrating VM .......");
 					HostSystem newHostIp= searchHost(hostParent);

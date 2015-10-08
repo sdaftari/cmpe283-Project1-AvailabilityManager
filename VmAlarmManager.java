@@ -95,8 +95,7 @@ public class VmAlarmManager {
 	
 	static AlarmTriggeringAction methodToTriggerAlarm(Action action) 
 	{
-		AlarmTriggeringAction actionOnAlarm = 
-				new AlarmTriggeringAction();
+		AlarmTriggeringAction actionOnAlarm = new AlarmTriggeringAction();
 		actionOnAlarm.setYellow2red(true);
 		actionOnAlarm.setAction(action);
 		return actionOnAlarm;
